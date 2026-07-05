@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCraft Studio — Web Design & Development Agency</title>
+    <meta name="description"
+        content="PixelCraft Studio is a creative web design and development agency crafting premium websites, brand identities, and digital products for startups, brands, and enterprise clients.">
+    <meta name="keywords"
+        content="web design agency, website development, UI UX design, brand identity, e-commerce development, landing pages">
+    <meta name="author" content="PixelCraft Studio">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.pixelcraftstudio.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PixelCraft Studio — Designing Digital Experiences That Inspire">
+    <meta property="og:description"
+        content="A creative web design & development agency building premium, high-converting digital experiences for ambitious brands.">
+    <meta property="og:url" content="https://www.pixelcraftstudio.com/">
+    <meta property="og:image" content="assets/images/og-cover.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PixelCraft Studio — Designing Digital Experiences That Inspire">
+    <meta name="twitter:description"
+        content="A creative web design & development agency building premium, high-converting digital experiences for ambitious brands.">
+    <meta name="twitter:image" content="assets/images/og-cover.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2224%22 fill=%22%237C3AED%22/><path d=%22M30 70V30h22a15 15 0 0 1 0 30H42%22 stroke=%22white%22 stroke-width=%228%22 fill=%22none%22/></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "PixelCraft Studio",
+    "description": "Creative web design & development agency crafting premium digital experiences.",
+    "url": "https://www.pixelcraftstudio.com/",
+    "telephone": "+1-555-014-2288",
+    "priceRange": "$$-$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "48 Foundry Lane, Suite 3",
+      "addressLocality": "Austin",
+      "addressRegion": "TX",
+      "postalCode": "78701",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://twitter.com/pixelcraftstudio",
+      "https://www.instagram.com/pixelcraftstudio",
+      "https://www.linkedin.com/company/pixelcraftstudio"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+    <!-- ================= LOADER ================= -->
+    <div class="loader" id="loader" aria-hidden="true">
+        <div class="loader-mark">
+            <span>P</span><span>C</span>
+        </div>
+        <div class="loader-bar"><span></span></div>
+    </div>
+
+    <!-- ================= CURSOR GLOW ================= -->
+    <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+    <!-- ================= SCROLL PROGRESS ================= -->
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo" aria-label="PixelCraft Studio home">
+                <span class="logo-mark">PC</span>
+                <span class="logo-text">Pixel<em>Craft</em></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks" aria-label="Primary">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-small btn-primary">Hire Us</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="home">
+
+        <!-- ================= HERO ================= -->
+        <section class="hero" aria-label="Introduction">
+            <div class="hero-bg" aria-hidden="true">
+                <div class="blob blob-a"></div>
+                <div class="blob blob-b"></div>
+                <div class="blob blob-c"></div>
+                <div class="grain"></div>
+            </div>
+
+            <div class="hero-grid">
+                <div class="hero-copy" data-reveal="left">
+                    <p class="eyebrow">Creative Web Design &amp; Development Studio</p>
+                    <h1 class="hero-title">
+                        Building <span class="text-gradient">Beautiful</span><br>
+                        Digital Experiences
+                    </h1>
+                    <p class="hero-desc">
+                        PixelCraft Studio partners with founders, brands, and enterprise teams to design
+                        and engineer websites that feel inevitable — fast, considered, and built to convert.
+                        From first sketch to shipped product, we treat every pixel like it matters. Because it does.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Hire Us</a>
+                        <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+                    </div>
+                    <div class="hero-clients">
+                        <span>Trusted by teams at</span>
+                        <div class="client-row">
+                            <span>Northwind</span><span>Loop&nbsp;Finance</span><span>Aurelia</span><span>Kettlebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual" data-reveal="right">
+                    <div class="nav-pills" aria-hidden="true">
+                        <button class="pill" id="orbPrev" aria-label="Previous">←</button>
+                        <button class="pill" id="orbNext" aria-label="Next">→</button>
+                    </div>
+
+                    <div class="orb-stage" id="orbStage">
+                        <div class="orb" id="orb">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                            <div class="ring ring-4"></div>
+                            <div class="ring ring-5"></div>
+                            <div class="core"></div>
+                        </div>
+                    </div>
+
+                    <p class="orb-caption">
+                        We specialise in crafting clean, considered digital products —
+                        interfaces that feel like they were always meant to exist.
+                    </p>
+                </div>
+            </div>
+
+            <div class="hero-marquee" aria-hidden="true">
+                <div class="marquee-track">
+                    <span>DESIGN</span><span>DEVELOP</span><span>DEPLOY</span><span>DELIGHT</span>
+                    <span>DESIGN</span><span>DEVELOP</span><span>DEPLOY</span><span>DELIGHT</span>
+                </div>
+            </div>
+
+            <button class="scroll-indicator" id="scrollIndicator" aria-label="Scroll to about section">
+                <span class="scroll-line"></span> Scroll
+            </button>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section about" id="about">
+            <div class="container about-grid">
+                <div class="about-media" data-reveal="left">
+                    <div class="about-frame">
+                        <div class="about-frame-glow"></div>
+                        <div class="about-photo" role="img"
+                            aria-label="PixelCraft Studio team collaborating in the studio"></div>
+                        <div class="about-badge">
+                            <strong>07</strong>
+                            <span>Years crafting digital products</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-copy" data-reveal="right">
+                    <p class="eyebrow">About the studio</p>
+                    <h2 class="section-title">We build the web the way a craftsman builds furniture — deliberately.</h2>
+                    <p class="section-lead">
+                        PixelCraft Studio is a small, senior team of designers and engineers. No account managers,
+                        no bloated process — just people who care about typography, motion, and load times in equal
+                        measure.
+                    </p>
+
+                    <div class="pillars">
+                        <div class="pillar">
+                            <h3>Mission</h3>
+                            <p>Give every client, regardless of size, a digital presence that outperforms brands ten
+                                times their budget.</p>
+                        </div>
+                        <div class="pillar">
+                            <h3>Vision</h3>
+                            <p>A web where good design isn't a luxury reserved for enterprise — it's the default.</p>
+                        </div>
+                        <div class="pillar">
+                            <h3>Values</h3>
+                            <p>Craft over speed. Clarity over cleverness. Honest timelines over sales promises.</p>
+                        </div>
+                    </div>
+
+                    <div class="stats" id="stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="150">0</span><span class="stat-suffix">+</span>
+                            <p>Projects Shipped</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="60">0</span><span class="stat-suffix">+</span>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="10">0</span><span class="stat-suffix">+</span>
+                            <p>Design Awards</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="98">0</span><span class="stat-suffix">%</span>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SERVICES ================= -->
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-head" data-reveal="up">
+                    <p class="eyebrow">What we do</p>
+                    <h2 class="section-title">Services built around outcomes, not deliverables.</h2>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card" data-reveal="up">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5Z"
+                                    stroke="currentColor" stroke-width="1.6" />
+                                <path d="M3 9h18M8 5v4" stroke="currentColor" stroke-width="1.6" />
+                            </svg>
+                        </div>
+                        <h3>Web Design</h3>
+                        <p>Interfaces rooted in your brand's actual world, not the nearest template.</p>
+                    </article>
+
+                    <article class="service-card" data-reveal="up">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="m8 9-4 3 4 3M16 9l4 3-4 3M13 5l-2 14" stroke="currentColor" stroke-width="1.6"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3>Website Development</h3>
+                        <p>Hand-built, fast-loading front ends backed by clean, maintainable code.</p>
+                    </article>
+
+                    <article class="service-card" data-reveal="up">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6" />
+                                <path
+                                    d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"
+                                    stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Research-backed flows and interfaces that reduce friction at every step.</p>
+                    </article>
+
+                    <article class="service-card" data-reveal="up">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2 3 7v10l9 5 9-5V7l-9-5Z" stroke="currentColor" stroke-width="1.6" />
+                                <path d="M3 7l9 5 9-5M12 12v10" stroke="currentColor" stroke-width="1.6" />
+                            </svg>
+                        </div>
+                        <h3>Brand Identity</h3>
+                        <p>Logos, type systems, and visual language that hold up across every touchpoint.</p>
+                    </article>
+
+                    <article class="service-card" data-reveal="up">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.6" />
+                                <path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="1.6"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3>SEO Optimisation</h3>
+                        <p>Technical and content SEO so the site you build actually gets found.</p>
+                    </article>
+
+                    <article class="service-card" data-reveal="up">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M3 4h18l-2 9H5L3 4Z" stroke="currentColor" stroke-width="1.6" />
+                                <circle cx="8" cy="19" r="1.5" stroke="currentColor" stroke-width="1.6" />
+                                <circle cx="17" cy="19" r="1.5" stroke="currentColor" stroke-width="1.6" />
+                            </svg>
+                        </div>
+                        <h3>E-Commerce</h3>
+                        <p>Storefronts engineered to convert, from product page to checkout.</p>
+                    </article>
+
+                    <article class="service-card" data-reveal="up">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor"
+                                    stroke-width="1.6" />
+                                <path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.6"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3>Landing Pages</h3>
+                        <p>Single-purpose pages built and tested to move one metric: conversions.</p>
+                    </article>
+
+                    <article class="service-card" data-reveal="up">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M12 4v4M12 16v4M4 12h4M16 12h4" stroke="currentColor" stroke-width="1.6"
+                                    stroke-linecap="round" />
+                                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6" />
+                            </svg>
+                        </div>
+                        <h3>Maintenance &amp; Support</h3>
+                        <p>Ongoing updates, monitoring, and fixes so your site stays fast and secure.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= WHY CHOOSE US ================= -->
+        <section class="section why" id="why">
+            <div class="container">
+                <div class="section-head" data-reveal="up">
+                    <p class="eyebrow">Why PixelCraft</p>
+                    <h2 class="section-title">Six reasons studios like yours keep coming back.</h2>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-card" data-reveal="up">
+                        <span class="why-num">01</span>
+                        <h3>Creative Design</h3>
+                        <p>Distinct visual direction for every brief — never a recycled template.</p>
+                    </div>
+                    <div class="why-card" data-reveal="up">
+                        <span class="why-num">02</span>
+                        <h3>Fast Delivery</h3>
+                        <p>Clear milestones and async updates so projects ship on schedule.</p>
+                    </div>
+                    <div class="why-card" data-reveal="up">
+                        <span class="why-num">03</span>
+                        <h3>Fair Pricing</h3>
+                        <p>Transparent scopes with no surprise change-order invoices.</p>
+                    </div>
+                    <div class="why-card" data-reveal="up">
+                        <span class="why-num">04</span>
+                        <h3>Senior Team</h3>
+                        <p>Every project is led by a senior designer or engineer, start to finish.</p>
+                    </div>
+                    <div class="why-card" data-reveal="up">
+                        <span class="why-num">05</span>
+                        <h3>Modern Stack</h3>
+                        <p>Performance-first builds using current, well-supported technology.</p>
+                    </div>
+                    <div class="why-card" data-reveal="up">
+                        <span class="why-num">06</span>
+                        <h3>Always-On Support</h3>
+                        <p>Round-the-clock monitoring and a real human on the other end.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PORTFOLIO ================= -->
+        <section class="section portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-head" data-reveal="up">
+                    <p class="eyebrow">Selected work</p>
+                    <h2 class="section-title">A few projects we're proud to put our name on.</h2>
+                </div>
+
+                <div class="filter-bar" id="filterBar" data-reveal="up">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="ecom">E-Commerce</button>
+                    <button class="filter-btn" data-filter="brand">Branding</button>
+                    <button class="filter-btn" data-filter="app">Product</button>
+                </div>
+
+                <div class="portfolio-grid" id="portfolioGrid">
+
+                    <article class="project-card" data-category="web" data-reveal="up">
+                        <div class="project-media grad-1">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-small btn-light">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-ghost">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-tag">Web Design</span>
+                            <h3>Northwind Capital</h3>
+                            <p>Fintech marketing site rebuilt for clarity and speed.</p>
+                            <span class="project-tech">Next.js · GSAP · Sanity</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="ecom" data-reveal="up">
+                        <div class="project-media grad-2">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-small btn-light">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-ghost">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-tag">E-Commerce</span>
+                            <h3>Kettlebase</h3>
+                            <p>Headless storefront for a DTC kitchenware brand.</p>
+                            <span class="project-tech">Shopify Hydrogen · Tailwind</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="brand" data-reveal="up">
+                        <div class="project-media grad-3">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-small btn-light">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-ghost">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-tag">Branding</span>
+                            <h3>Aurelia Skincare</h3>
+                            <p>Full identity system plus a launch site for a new label.</p>
+                            <span class="project-tech">Figma · Webflow</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="app" data-reveal="up">
+                        <div class="project-media grad-4">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-small btn-light">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-ghost">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-tag">Product</span>
+                            <h3>Loop Finance</h3>
+                            <p>Dashboard redesign that cut onboarding time by 40%.</p>
+                            <span class="project-tech">React · D3.js</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="web" data-reveal="up">
+                        <div class="project-media grad-5">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-small btn-light">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-ghost">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-tag">Web Design</span>
+                            <h3>Foundry Studio</h3>
+                            <p>Portfolio site for an architecture collective in Austin.</p>
+                            <span class="project-tech">Astro · Three.js</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="ecom" data-reveal="up">
+                        <div class="project-media grad-6">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-small btn-light">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-ghost">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-tag">E-Commerce</span>
+                            <h3>Marrow Coffee Co.</h3>
+                            <p>Subscription-first storefront with a custom roast finder.</p>
+                            <span class="project-tech">Vue · Stripe</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROCESS ================= -->
+        <section class="section process" id="process">
+            <div class="container">
+                <div class="section-head" data-reveal="up">
+                    <p class="eyebrow">How we work</p>
+                    <h2 class="section-title">A seven-step process refined across 150+ projects.</h2>
+                </div>
+
+                <ol class="timeline">
+                    <li data-reveal="up"><span class="tl-index">01</span>
+                        <div>
+                            <h3>Discovery</h3>
+                            <p>We learn your business, audience, and competitors before opening Figma.</p>
+                        </div>
+                    </li>
+                    <li data-reveal="up"><span class="tl-index">02</span>
+                        <div>
+                            <h3>Planning</h3>
+                            <p>Sitemaps, content strategy, and technical scope get locked in writing.</p>
+                        </div>
+                    </li>
+                    <li data-reveal="up"><span class="tl-index">03</span>
+                        <div>
+                            <h3>Design</h3>
+                            <p>Wireframes evolve into a full visual system you approve before build.</p>
+                        </div>
+                    </li>
+                    <li data-reveal="up"><span class="tl-index">04</span>
+                        <div>
+                            <h3>Development</h3>
+                            <p>Senior engineers turn approved designs into performant, tested code.</p>
+                        </div>
+                    </li>
+                    <li data-reveal="up"><span class="tl-index">05</span>
+                        <div>
+                            <h3>Testing</h3>
+                            <p>Cross-browser, accessibility, and performance QA before anything ships.</p>
+                        </div>
+                    </li>
+                    <li data-reveal="up"><span class="tl-index">06</span>
+                        <div>
+                            <h3>Deployment</h3>
+                            <p>A staged launch checklist so go-live day has zero surprises.</p>
+                        </div>
+                    </li>
+                    <li data-reveal="up"><span class="tl-index">07</span>
+                        <div>
+                            <h3>Support</h3>
+                            <p>Post-launch monitoring, fixes, and a direct line to your team.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ================= TEAM ================= -->
+        <section class="section team" id="team">
+            <div class="container">
+                <div class="section-head" data-reveal="up">
+                    <p class="eyebrow">The people</p>
+                    <h2 class="section-title">A small studio. On purpose.</h2>
+                </div>
+
+                <div class="team-grid">
+                    <article class="team-card" data-reveal="up">
+                        <div class="team-photo tp-1"></div>
+                        <h3>Maya Anders</h3>
+                        <span>Creative Director</span>
+                        <div class="socials">
+                            <a href="#" aria-label="Maya on LinkedIn">in</a>
+                            <a href="#" aria-label="Maya on Twitter">tw</a>
+                            <a href="#" aria-label="Maya on Dribbble">dr</a>
+                        </div>
+                    </article>
+                    <article class="team-card" data-reveal="up">
+                        <div class="team-photo tp-2"></div>
+                        <h3>Dev Kapoor</h3>
+                        <span>Lead Engineer</span>
+                        <div class="socials">
+                            <a href="#" aria-label="Dev on LinkedIn">in</a>
+                            <a href="#" aria-label="Dev on GitHub">gh</a>
+                            <a href="#" aria-label="Dev on Twitter">tw</a>
+                        </div>
+                    </article>
+                    <article class="team-card" data-reveal="up">
+                        <div class="team-photo tp-3"></div>
+                        <h3>Sofia Reyes</h3>
+                        <span>Product Designer</span>
+                        <div class="socials">
+                            <a href="#" aria-label="Sofia on LinkedIn">in</a>
+                            <a href="#" aria-label="Sofia on Dribbble">dr</a>
+                            <a href="#" aria-label="Sofia on Instagram">ig</a>
+                        </div>
+                    </article>
+                    <article class="team-card" data-reveal="up">
+                        <div class="team-photo tp-4"></div>
+                        <h3>Leo Okafor</h3>
+                        <span>Brand Strategist</span>
+                        <div class="socials">
+                            <a href="#" aria-label="Leo on LinkedIn">in</a>
+                            <a href="#" aria-label="Leo on Twitter">tw</a>
+                            <a href="#" aria-label="Leo on Behance">be</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TESTIMONIALS ================= -->
+        <section class="section testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-head" data-reveal="up">
+                    <p class="eyebrow">Client words</p>
+                    <h2 class="section-title">Don't take our word for it.</h2>
+                </div>
+
+                <div class="testimonial-slider" id="testimonialSlider">
+                    <div class="testimonial-track" id="testimonialTrack">
+
+                        <figure class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <blockquote>PixelCraft rebuilt our site in six weeks and our demo-request rate nearly
+                                doubled the month after launch.</blockquote>
+                            <figcaption><span class="avatar av-1"></span>
+                                <div><strong>Rachel Kim</strong><span>Northwind Capital</span></div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <blockquote>They actually pushed back on ideas that wouldn't have worked. That honesty is
+                                rare and it paid off.</blockquote>
+                            <figcaption><span class="avatar av-2"></span>
+                                <div><strong>Tomas Berg</strong><span>Kettlebase</span></div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <blockquote>Our new identity finally feels as premium as the product itself. Worth every
+                                dollar.</blockquote>
+                            <figcaption><span class="avatar av-3"></span>
+                                <div><strong>Priya Nair</strong><span>Aurelia Skincare</span></div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <blockquote>Communication was clear from kickoff to launch. No surprises, no missed dates.
+                            </blockquote>
+                            <figcaption><span class="avatar av-4"></span>
+                                <div><strong>Owen Clarke</strong><span>Loop Finance</span></div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <blockquote>The dashboard redesign cut our onboarding calls in half. Genuinely changed how
+                                we sell.</blockquote>
+                            <figcaption><span class="avatar av-5"></span>
+                                <div><strong>Hana Suzuki</strong><span>Foundry Studio</span></div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <blockquote>Fast, thoughtful, and refreshingly low-drama. We're already scoping our next
+                                project with them.</blockquote>
+                            <figcaption><span class="avatar av-6"></span>
+                                <div><strong>Marcus Ide</strong><span>Marrow Coffee Co.</span></div>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PRICING ================= -->
+        <section class="section pricing" id="pricing">
+            <div class="container">
+                <div class="section-head" data-reveal="up">
+                    <p class="eyebrow">Investment</p>
+                    <h2 class="section-title">Straightforward pricing, no hidden scopes.</h2>
+                </div>
+
+                <div class="pricing-grid">
+                    <div class="price-card" data-reveal="up">
+                        <h3>Starter</h3>
+                        <p class="price-desc">For a single, sharp landing page.</p>
+                        <div class="price"><span>$1,900</span><small>one-time</small></div>
+                        <ul>
+                            <li>Up to 5 sections</li>
+                            <li>Responsive build</li>
+                            <li>Basic on-page SEO</li>
+                            <li>2 rounds of revisions</li>
+                            <li>14-day support window</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline btn-full">Get Started</a>
+                    </div>
+
+                    <div class="price-card featured" data-reveal="up">
+                        <span class="price-badge">Most Popular</span>
+                        <h3>Professional</h3>
+                        <p class="price-desc">Full site for a growing business.</p>
+                        <div class="price"><span>$4,900</span><small>one-time</small></div>
+                        <ul>
+                            <li>Up to 10 pages</li>
+                            <li>Custom UI system</li>
+                            <li>Technical SEO &amp; analytics</li>
+                            <li>CMS integration</li>
+                            <li>60-day support window</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-full">Get Started</a>
+                    </div>
+
+                    <div class="price-card" data-reveal="up">
+                        <h3>Enterprise</h3>
+                        <p class="price-desc">For complex, multi-stakeholder builds.</p>
+                        <div class="price"><span>Custom</span><small>scoped</small></div>
+                        <ul>
+                            <li>Unlimited pages</li>
+                            <li>Design system &amp; component library</li>
+                            <li>Dedicated engineering pod</li>
+                            <li>Priority SLA support</li>
+                            <li>Ongoing retainer available</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline btn-full">Talk to Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= BLOG ================= -->
+        <section class="section blog" id="blog">
+            <div class="container">
+                <div class="section-head" data-reveal="up">
+                    <p class="eyebrow">From the studio</p>
+                    <h2 class="section-title">Notes on design, code, and running a small studio.</h2>
+                </div>
+
+                <div class="blog-grid">
+
+                    <article class="blog-card" data-reveal="up">
+                        <div class="blog-media grad-1"></div>
+                        <div class="blog-body">
+                            <div class="blog-meta"><span>June 18, 2026</span><span>Design</span></div>
+                            <h3>Why your hero section is costing you conversions</h3>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-reveal="up">
+                        <div class="blog-media grad-2"></div>
+                        <div class="blog-body">
+                            <div class="blog-meta"><span>June 2, 2026</span><span>Development</span></div>
+                            <h3>The case for vanilla JS on marketing sites</h3>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-reveal="up">
+                        <div class="blog-media grad-3"></div>
+                        <div class="blog-body">
+                            <div class="blog-meta"><span>May 21, 2026</span><span>SEO</span></div>
+                            <h3>Technical SEO checklist we run before every launch</h3>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-reveal="up">
+                        <div class="blog-media grad-4"></div>
+                        <div class="blog-body">
+                            <div class="blog-meta"><span>May 9, 2026</span><span>Branding</span></div>
+                            <h3>Building a type system that survives contact with marketing</h3>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-reveal="up">
+                        <div class="blog-media grad-5"></div>
+                        <div class="blog-body">
+                            <div class="blog-meta"><span>April 27, 2026</span><span>Process</span></div>
+                            <h3>What a 7-stage delivery process actually buys you</h3>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-reveal="up">
+                        <div class="blog-media grad-6"></div>
+                        <div class="blog-body">
+                            <div class="blog-meta"><span>April 10, 2026</span><span>Studio</span></div>
+                            <h3>Staying small: how a 4-person team ships 20+ sites a year</h3>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= FAQ ================= -->
+        <section class="section faq" id="faq">
+            <div class="container faq-grid">
+                <div class="section-head" data-reveal="left">
+                    <p class="eyebrow">Questions</p>
+                    <h2 class="section-title">Everything you'd want to know before reaching out.</h2>
+                    <p class="section-lead">Can't find your answer? <a href="#contact" class="inline-link">Ask us
+                            directly</a>.</p>
+                </div>
+
+                <div class="accordion" id="accordion" data-reveal="right">
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">How long does a typical project take?<span
+                                class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>A landing page usually takes 2–3 weeks. Full marketing sites run 5–8 weeks depending on
+                                scope and content readiness.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">Do you work with clients outside the US?<span
+                                class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>Yes — roughly half our clients are international. All collaboration happens async plus
+                                scheduled video calls.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">What do you need from us to get started?<span
+                                class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>A short brief, any brand assets you already have, and one point of contact who can
+                                approve decisions.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">Can you work with our existing brand guidelines?<span
+                                class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>Absolutely. We'll extend your existing system rather than replace it, unless a rebrand is
+                                part of the scope.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">Which platforms do you build on?<span
+                                class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>Depends on the project — hand-coded HTML/CSS/JS, Webflow, Shopify, or a React-based stack
+                                when the product needs it.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">Do you offer ongoing maintenance?<span
+                                class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>Yes, month-to-month retainers cover updates, monitoring, and small fixes after launch.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">How much input do we have during design?<span
+                                class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>You'll review and approve work at each stage — discovery, wireframes, visual design, and
+                                pre-launch QA.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">What if we need changes after launch?<span
+                                class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>Every package includes a support window for fixes. Beyond that, changes are billed hourly
+                                or via retainer.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">Do you handle copywriting?<span
+                                class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>We can write or refine copy as part of the project, or work with copy you already have.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">How do payments work?<span class="acc-icon">+</span></button>
+                        <div class="accordion-panel">
+                            <p>Typically a 50% deposit to begin, with the balance due at launch. Enterprise projects can
+                                be milestone-billed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+        <section class="section contact" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-copy" data-reveal="left">
+                    <p class="eyebrow">Get in touch</p>
+                    <h2 class="section-title">Tell us about the project. We'll reply within one business day.</h2>
+
+                    <ul class="contact-details">
+                        <li><strong>Email</strong><span>hello@pixelcraftstudio.com</span></li>
+                        <li><strong>Phone</strong><span>+1 (555) 014-2288</span></li>
+                        <li><strong>Address</strong><span>48 Foundry Lane, Suite 3, Austin, TX 78701</span></li>
+                        <li><strong>Hours</strong><span>Mon – Fri, 9:00 – 18:00 CST</span></li>
+                    </ul>
+
+                    <div class="socials socials-lg">
+                        <a href="#" aria-label="Instagram">ig</a>
+                        <a href="#" aria-label="Twitter / X">tw</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Dribbble">dr</a>
+                    </div>
+
+                    <div class="map-placeholder" role="img"
+                        aria-label="Map showing PixelCraft Studio office in Austin, Texas"></div>
+                </div>
+
+                <form class="contact-form" id="contactForm" data-reveal="right" novalidate>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">Full name</label>
+                            <input type="text" id="name" name="name" placeholder="Jordan Lee" required>
+                            <span class="field-error">Please enter your name.</span>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name="email" placeholder="jordan@company.com" required>
+                            <span class="field-error">Please enter a valid email.</span>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="budget">Estimated budget</label>
+                        <select id="budget" name="budget">
+                            <option>Under $2,000</option>
+                            <option>$2,000 – $5,000</option>
+                            <option>$5,000 – $15,000</option>
+                            <option>$15,000+</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Project details</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us what you're building..."
+                            required></textarea>
+                        <span class="field-error">Please add a few details about your project.</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span class="btn-label">Send Message</span>
+                    </button>
+                    <p class="form-success" id="formSuccess" role="status">Thanks — your message is in. We'll be in
+                        touch within one business day.</p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-mark">PC</span>
+                    <span class="logo-text">Pixel<em>Craft</em></span>
+                </a>
+                <p>A small studio designing and building premium websites for ambitious brands.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="#services">Web Design</a>
+                <a href="#services">Development</a>
+                <a href="#services">UI/UX Design</a>
+                <a href="#services">Brand Identity</a>
+                <a href="#services">SEO</a>
+            </div>
+
+            <div class="footer-col footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Occasional notes on design and code. No spam, unsubscribe anytime.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="you@company.com" aria-label="Email for newsletter" required>
+                    <button type="submit" aria-label="Subscribe">→</button>
+                </form>
+                <div class="socials">
+                    <a href="#" aria-label="Instagram">ig</a>
+                    <a href="#" aria-label="Twitter / X">tw</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© 2026 PixelCraft Studio. All rights reserved.</p>
+            <p>Designed &amp; built in-house by the PixelCraft team.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
